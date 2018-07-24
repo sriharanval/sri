@@ -1,13 +1,16 @@
-import java.io.; 
-import java.util.; 
-class vowels { publi static void main(String args[]) 
+#include<stdio.h>
+void main()
 {
- Scanner s=new Scanner(System.in); 
- char[] arr=new int{'a','e','i','o','u'};
- char c=s.next();
- if(c==arr) { System.out.println("vowels"); 
- } 
- else { System.out.println("consonants")
- }
- }
- }
+char c;
+printf("enter the character");
+scanf("%c",&c);
+if(c>='a' && c<='z')
+{
+printf("%c alphabet",c);
+}
+else
+{
+printf("%c not alphabet",c);
+}
+getch();
+}
